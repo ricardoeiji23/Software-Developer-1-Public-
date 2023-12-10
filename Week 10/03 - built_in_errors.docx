@@ -1,0 +1,52 @@
+Build-in exceptions is a way to handle errors and exceptional situations 
+
+Build-in exceptions examples:
+    TypeError:
+        - Raised when an operation or function is applied to an object of an inappropriate type
+        - A common cause: Performing operations (Adding string and integers)
+
+        - Ex:
+            result = "5" + 3  # Adding string and integer.
+
+            
+    valueError:
+        - Raised when a built-in operation or function receives an argument of the correct type but with an invalid value.
+        - common cause: Passing a correct value but the function type is not allowed 
+
+        - Ex:
+            num = int("abc")  # Attempting to convert a non-numeric string to an integer
+
+
+
+The universal "built-in exceptions" is the exceptional 
+    You can use it to print what is going on and the type error
+
+    Ex:
+        while True:
+        try:
+            user_input = int(input("Enter a rating (1-5) or -1 to end: "))
+
+        except Exception as ve:
+            print(f"Error: {ve}. Please enter a valid number.")
+
+        # And since we defined the "Exception" as "ve". It'll print what is going on
+
+
+
+Using "try" and "except"
+    try:
+        # Code that may raise an exception
+        x = int(input("Enter a number: "))
+        result = 10 / x
+    except ValueError as ve:
+        # Handle the case where the user didn't enter a valid number
+        print(f"Error: {ve}")
+    except ZeroDivisionError as ze:
+        # Handle the case where the user entered 0
+        print(f"Error: {ze}")
+    else:
+        # Code to execute if no exception occurs
+        print(f"Result: {result}")
+    finally:
+        # Code that will be executed regardless of exceptions
+        print("Execution complete.")

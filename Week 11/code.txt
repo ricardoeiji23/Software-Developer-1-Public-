@@ -1,0 +1,164 @@
+
+
+======================= WEEK 1 =======================
+Código para limitar a dois números decimais 
+    numero = 4.14159
+    numero_formatado = round(numero, 2)
+    print(numero_formatado)
+
+    Para String:
+        numero = 3.14159
+        numero_formatado = "{:.2f}".format(numero)
+        print(numero_formatado)
+
+Para juntar string com variable:
+    print(f"Welcome to the {town}")
+
+    print("welcome to the ", town) or print("welcome to the " + town) > Precisa dar espaço no "" 
+
+Na hora de printar, todos precisam ser uma string, entao precisa transformar o valor adicionando o type (str, float, int)
+    print("Age next Birthday: " + str(age))
+        Nesse caso transformamos o "age" em uma string temporaria (Nao definimos ela)
+
+Podemos utilizar () para formar a sequência das operações 
+    breakeven = fixed_costs/(sale_price_per_item-cost_to_produce_each_item)
+
+Processo para resolução de problemas de programação
+    - Entender o problema   
+        - Definir claramente o problema (Garantir que entendeu os requerimentos)
+        - Quebrar o problema em partes menores
+
+    - Planejar a solução
+        - Divida o algoritmo e veja qual parece o mais eficiente 
+        - Pseudocode pode ser útil para escrever o passo a passo que o code precisa 
+
+    - Implementar a solução
+        - Escrever o código baseado no plano
+        - Começe com uma VERSÃO SIMPLES e depois vai melhorando o código
+
+    - Teste o código
+        - Testar o código com diferentes inputs (edge and corner cases)
+        - Checar se o resultado bate com o resultado esperado
+
+    - Debugging
+        - Try to identify the issue and fix it 
+
+    - Refinar e optimizar
+        - Reestruture seu código para ficar mais claro, eficaz.
+        - optimize o código... Especialmente porque a primeira versão nunca é o sucifiente 
+
+    - Documentação
+        - Adicione comentários
+
+Para encontrar o resto da divisão, podemos utilizar o:
+    left_for_teacher = sweets_number%students_number
+        Vai devolver o resto da divisão não exata (ex: 40%14 = 12)
+
+======================= WEEK 2 =======================
+
+======================= WEEK 3 =======================
+Uma pergunta de conversão de medidas
+    - Precimaos transformar os valores na menor medida possível 
+
+Para chamar uma função:
+     -height-converter() - Só escrever o nome da função e ()
+
+
+======================= WEEK 4 =======================
+
+======================= WEEK 5 =======================
+
+======================= WEEK 6 =======================
+
+======================= WEEK 7 =======================
+
+======================= WEEK 8 =======================
+
+result = operations[choice](x, y)
+    The result of the function will stored in the "result"
+
+    The "operations[choice]"
+        we are using the key "choice" to access the corresponding value 
+
+    "operations[choice](x, y)"
+        Dictionary is accessing the key, so it access it's corresponding value (The function)
+        Then it takes the parameters x, y and use it in the function
+
+
+======================= WEEK 9 =======================
+Dictionary 
+    - Collection of key-value pairs, each key must be unique and associated with a corresponding value
+        The first value is the key 
+
+======================= WEEK 10 =======================
+
+To print the dictionary and all the item:
+    for x, y in votes_dictionary.items(): #Must use the .item()
+        print(f"{x} quantity: {y}")
+
+
+Horizontal tab in print:
+    Input
+        print("Hello\tWorld!")
+    Output
+        Hello   World!
+
+How to limit the number for 2 decimal numbers
+    round(average_percentage, 2)
+
+Percentage:
+    (part/whole) * 100
+
+    use the round() function to limit the decimal houses
+
+
+======================= WEEK 11 =======================
+
+Wanna access a specific key in dictionary:
+    Ex 1:
+        # Example dictionary
+        my_dict = {'apple': 5, 'banana': 10, 'orange': 8}
+
+        # Accessing values by key
+        banana_count = my_dict['banana']
+        print("Number of bananas:", banana_count)
+
+    Ex 2:
+        user_data['username'] == username #(user_data['username']) is the value associated with the key
+
+
+Wanna acess the key or value by the index:
+    # Example dictionary
+    my_dict = {'apple': 5, 'banana': 10, 'orange': 8}
+
+    # Convert dictionary items to a list of tuples
+    items_list = list(my_dict.items())
+
+    # Accessing the first item by index
+    first_item = items_list[0]
+    print("First item:", first_item)
+
+
+JSON (JavaScript Object Notation)
+
+    - responsible for storing and retrieving user credentials in a persistent manner
+
+    def save_user_credentials(username, password):
+        with open('user_credentials.json', 'r') as file: # This line opens the 'user_credentials.json' file in read mode ('r').
+            data = json.load(file) # The with statement is used to ensure that the file is properly closed after reading.
+
+        data[username] = password
+
+        with open('user_credentials.json', 'w') as file:
+            json.dump(data, file)
+
+    The Modes in json   
+        "r" - Read mode
+            - When opening a file with 'r' mode, it allows you to read the contents of the file but does not allow writing.
+
+        "w" - Write mode    
+            - When opening a file with 'w' mode, it allows you to write data to the file, overwriting any existing content.
+
+        "a" - Append mode  
+            - When opening a file with 'a' mode, it allows you to write data to the end of the file without overwriting the existing content.
+

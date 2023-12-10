@@ -1,0 +1,13 @@
+The test plan should show:
+    The data to be used
+    The reason for the test 
+    The expected result 
+    The actual result 
+
+The result is not the expect result? 
+    Check the expected result
+    Correct the program
+    Run all tests again 
+
+In the test plan table
+    Test (Unit test 1) - input - Reason - Expect - Actual

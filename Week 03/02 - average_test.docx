@@ -1,0 +1,26 @@
+Test plan ideia
+
+    Inputs
+        10, 9, 8, 7
+        1, 1, 1, 1
+
+    Fild of the plan Test
+        Input value
+
+        What is the expected output (Showing how to calculate the expected output)
+
+        The actual result 
+
+
+Unit test 1
+    Input: 10, 9, 8, 7
+
+    expected output: (10+9+8+7)/4 = 8.5 
+
+    Actual result: 8.5s
+
+
+Unit test 2
+    Input: 1, 1, 1, 1
+    Expected Output: 1
+    The actual result: 1.0

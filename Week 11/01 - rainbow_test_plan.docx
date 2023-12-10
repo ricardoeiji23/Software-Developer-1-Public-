@@ -1,0 +1,66 @@
+The test plan should show:
+    The data to be used (Input)
+    The reason for the test (Reason)
+    The expected result (Expected)
+    The actual result (Actual)
+
+        - The test plan covers a variety of scenarios to ensure the code handles different input cases corretly
+
+
+Types of test:
+    - Valid input Testing
+    - Invalid input Testing
+    - Negative input Testing
+    - Program termination Testing
+    - Mixed input testing (3, abc, 5, -2)
+    - Edge case testing (Minimun and maximum valid input)
+    - Empty input testing 
+    - Repetition testing (2, 2, 2, 3, 3, 3...)
+
+Test for the valid inputs
+
+    Input: 
+        1
+        4
+        7
+
+    Reason:
+        Check if the indicated numbers are linked to the color in the list
+
+    Expected:
+        Read
+        Green
+        Violet
+
+    Actual:
+        Read
+        Green
+        Violet
+
+
+Test for invalid inputs:
+    Input:
+        abc
+        0
+        8
+
+    Reason:
+        To see if it'll print the error message and only the range of number works
+
+    Expected:
+        "Plase, input a integer number" (Since the first Try needs to be a integer number)
+        "Invalid input, please chose between 1 and 7 (Or a negative to end)" (It's a integer number, but in the range)
+        "Invalid input, please chose between 1 and 7 (Or a negative to end)" (It's a integer number, but in the range)
+
+Testing negative input
+    input:
+        -5
+
+    Reason: 
+        It should end the program since if the input is lower than 0, it'll break the infinite loop
+
+    Expected:
+        "Program terminated"
+
+    Actual:
+        "Program terminated"

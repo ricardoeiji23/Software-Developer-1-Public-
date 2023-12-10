@@ -1,0 +1,17 @@
+
+- Write the most appropriate data type for each item below
+
+ 
+A company's profit (Float - Because the profit number may contain decimal places)
+
+A person's weight (Float - Because the weight number may will have decimal places)
+
+A book title (String - Because it just a text type data)
+
+Average rainsfall in September (Float / int - Because the calculation might not be a integer number, but with a decimal place too)
+
+Number of runs scored by a cricketer (Float / int - Well, considering they only accept full numbers, we could use int)
+
+A telephone number, including area code (String - Because it has the "+" of area code and has the numbers of the telephone number)
+
+A dress size (int / string - If the size is by numbers, we use int. If it is with a letter, we use a string)

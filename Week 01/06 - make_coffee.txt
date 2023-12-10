@@ -1,0 +1,20 @@
+"""
+First, take all the ingredients and material necessary (Coffee powder, Filter, Hot water, Mug, Coffee container)
+
+Take the filter
+
+Add 4 spoons of coffee in it 
+
+Take the coffee container and put the filter above it
+
+Take the hot water and add to the filter 
+
+wait until all the water in the filter fall down into the coffee container
+
+take off the filter above the coffee container 
+
+Take the mug and add the coffee, that is in the coffee container, in it
+
+Drink you coffee 
+
+"""

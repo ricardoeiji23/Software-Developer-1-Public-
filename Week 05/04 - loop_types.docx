@@ -1,0 +1,6 @@
+for variable in sequence:
+    # code to be executed in each iteration
+
+
+while condition:
+    # code to be executed as long as the condition is true
